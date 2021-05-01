@@ -2,7 +2,6 @@ wheel
 numpy
 scipy
 matplotlib
-matplotlib
 jax
 jaxlib
 yapf
@@ -12,3 +11,4 @@ tqdm
 PyQt5
 PyOpenGL
 pyqtgraph
+scikit-learn
