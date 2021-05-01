@@ -1,0 +1,14 @@
+wheel
+numpy
+scipy
+matplotlib
+matplotlib
+jax
+jaxlib
+yapf
+pytest
+pandas
+tqdm
+PyQt5
+PyOpenGL
+pyqtgraph
