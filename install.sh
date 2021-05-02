@@ -7,7 +7,7 @@ sudo snap install --classic code
 sudo snap install zoom-client
 
 sudo apt install python3 python3-pip
-pip install -Ur py_packages.txt
+pip3 install -Ur py_packages.txt
 
 
 sudo apt install gcc openmpi-bin openmpi-common openmpi-doc
