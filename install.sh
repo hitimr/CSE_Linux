@@ -2,7 +2,7 @@
 # basic stuff
 sudo apt update
 sudo apt upgrade
-sudo apt install cmake git vlc thunderbird steam onedrive make
+sudo apt install cmake git vlc thunderbird steam onedrive make conky-all
 sudo snap install --classic code
 sudo snap install zoom-client
 
@@ -37,11 +37,16 @@ code --install-extension james-yu.latex-workshop mhutchie.git-graph ms-toolsai.j
 
 
 # NumPDE	
-sudo apt-add-repository universe
-sudo add-apt-repository ppa:ngsolve/ngsolve
+sudo apt-add-repository universe --sk
+sudo add-apt-repository ppa:ngsolve/ngsolve --sk
 sudo apt-get update
 sudo apt-get install ngsolve
-
+jupyter nbextension install --user --py ngsolve
+pip3 install ipywidgets
+jupyter nbextension install --py widgetsnbextension
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension install --user --py ngsolve
+jupyter nbextension enable --user --py ngsolve
 
 # Git
 sudo apt-get install git -y
@@ -53,5 +58,6 @@ sudo snap install --classic code
 
 
 # Desktop
-#sudo apt-get install kubuntu-desktop # requiress 1.2 GB download
-
+sudo apt install sddm
+sudo dpkg-reconfigure sddm
+sudo apt-get install kubuntu-desktop # requiress 500MB download

@@ -12,3 +12,5 @@ PyQt5
 PyOpenGL
 pyqtgraph
 scikit-learn
+nbconvert
+jupyter
