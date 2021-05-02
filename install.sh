@@ -58,6 +58,6 @@ sudo snap install --classic code
 
 
 # Desktop
-sudo apt install sddm
-sudo dpkg-reconfigure sddm
-sudo apt-get install kubuntu-desktop # requiress 500MB download
+#sudo apt install sddm
+#sudo dpkg-reconfigure sddm
+#sudo apt-get install kubuntu-desktop # requiress 500MB download
