@@ -4,7 +4,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install cmake git vlc thunderbird steam zoom google-chrome-stable onedrive
 sudo snap install --classic code
-
+sudo snap install zoom-client
 
 sudo apt install python3 python3-pip
 pip install -Ur py_packages.txt
