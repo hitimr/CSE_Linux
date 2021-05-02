@@ -10,3 +10,4 @@ sudo apt install cmake vlc thunderbird steam zoom google-chrome-stable onedrive
 sudo snap install --classic code
 
 
+#sudo apt-get install kubuntu-desktop # requiress 1.2 GB download
