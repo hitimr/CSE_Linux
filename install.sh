@@ -15,18 +15,18 @@ sudo snap install zoom-client
 
 
 # remove default dirs
-rm -rf ~/Documents
-rm -rf ~/Dokumente
-rm -rf ~/Bilder
-rm -rf ~/Pictures
-rm -rf ~/Music
-rm -rf ~/Musik
-rm -rf ~/Öffentlich
-rm -rf ~/Public
-rm -rf ~/Videos
+#rm -rf ~/Documents
+#rm -rf ~/Dokumente
+#rm -rf ~/Bilder
+#rm -rf ~/Pictures
+#rm -rf ~/Music
+#rm -rf ~/Musik
+#rm -rf ~/Öffentlich
+#rm -rf ~/Public
+#rm -rf ~/Videos
 
 
-xdg-user-dirs-update 
+#xdg-user-dirs-update 
 
 
 # Python
